@@ -19,7 +19,10 @@ export default defineConfig({
       {
         text: 'hello-gpu 组队学习',
         items: [
-          { text: 'Task 0 · 环境准备（第 1 章）', link: '/notes/task0-environment-setup' }
+          { text: 'Task 0 · 环境准备（第 1 章）', link: '/notes/task0-environment-setup' },
+          { text: '第 2 章 · 编程模型与 wavefront 执行', link: '/notes/chapter2-programming-model' },
+          { text: '第 3 章 · 数据存储与访问', link: '/notes/chapter3-memory-and-access' },
+          { text: '第 4 章 · 第一个程序与性能分析', link: '/notes/chapter4-first-program-benchmark' }
         ]
       }
     ],
